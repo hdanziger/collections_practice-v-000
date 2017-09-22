@@ -37,3 +37,9 @@ def find_a(array)
     a_array << word.start_with?("a")
   end
 end
+
+def sum_array(array)
+  array.inject(0) do |result, element|
+    result + element 
+  end 
+end 
