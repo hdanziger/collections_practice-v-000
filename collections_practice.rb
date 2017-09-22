@@ -36,7 +36,6 @@ def find_a(array)
   array.find_all do |word|
   if word.start_with?("a")
     a_array << word 
-
   end
   a_array
 end
