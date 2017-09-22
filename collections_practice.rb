@@ -32,8 +32,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  a_array=[]
   array.find_all do |word|
-    word.start_with?("a")
-    array
+    a_array << word.start_with?("a")
   end
 end
