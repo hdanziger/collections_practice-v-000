@@ -16,5 +16,5 @@ end
 
 def swap_elements(array)
   array.swap_elements_from_to do |array, 1,2|
-  end 
-end 
+  end
+end
