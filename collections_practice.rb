@@ -44,5 +44,3 @@ def sum_array(array)
     result + element
   end
 end
-
-
