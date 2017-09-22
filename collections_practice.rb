@@ -36,6 +36,7 @@ def find_a(array)
   array.find_all do |word|
     a_array << word.start_with?("a")
   end
+  a_array
 end
 
 def sum_array(array)
@@ -43,3 +44,7 @@ def sum_array(array)
     result + element
   end
 end 
+
+def add_s(array)
+  array.each_with_index.collect do |element, index|
+    element<<"s"  
