@@ -21,6 +21,6 @@ end
 
 def reverse_array(array)
   reversed_array = []
-  array.reverse(array)
+  array.reverse
   reversed_array<<array
 end
