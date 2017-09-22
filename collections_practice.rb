@@ -36,6 +36,4 @@ def find_a(array)
     word.start_with?("a")
     array
   end
-      
-      
-  
+end
