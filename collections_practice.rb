@@ -46,3 +46,7 @@ def sum_array(array)
     result + element
   end
 end
+
+def add_s(array)
+  array.each_with_index.collect do |element, index|
+    element[0,2,3]<<"s"
