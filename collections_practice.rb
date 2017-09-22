@@ -40,6 +40,6 @@ end
 
 def sum_array(array)
   array.inject(0) do |result, element|
-    result + element 
-  end 
+    result + element
+  end
 end 
