@@ -43,8 +43,8 @@ def sum_array(array)
   array.inject(0) do |result, element|
     result + element
   end
-end 
+end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    element<<"s"  
+    element<<"s"
